@@ -1,6 +1,6 @@
 # Analysis of Weather Patterns in Oahu
 ## *Data for Surf n' Shake Business Proposal*
-### Purpose: determine whether the island's historical weather patterns are fit for opening new business
+### Purpose: Determine whether the island's historical weather patterns point to suitable conditions for launching new business
 ---
 ## Weather Analysis
 ### Analysis Based on June Temperatures
@@ -20,11 +20,17 @@ Our analysis of the weather data shows, between the years 2010 and 2017:<br/>
 - The minimum temperature in December was 56 degrees
 - The standard deviation of the December temperature data is 3.75
 
+Historical June Weather Summary Statistics     |  Historical December Weather Summary Statistics
+:-------------------------:|:-------------------------:
+<img src="" width="300" />|<img src="" width="300"/>
+
 ## Resources
-* Data Source: SQLite file 'hawaii.sqlite'
+* Data Source: SQLite file 'hawaii.sqlite' in resources folder
 * Software: Jupyter Server via VS Code, Version 1.62.2
 
 ## Summary
-The average temperature for June and December are within 3 degrees and within a considerable and optimal range for comfortable outdoor activities.  It is worth noting that maximums for both months reached the 80s, which is fairly warm but not too hot, and the temperature minimum for December only dropped to 56 degrees.</br></br>
-The standard deviation of the data is fairly large at 3.26 for the June data and 3.75 for the December data, meaning that the data is fairly spread out and may compromise the average temperatures provided. However, multiple temperatures were taken for a single day, meaning the outlier temperature may have been procured during the early hours of the morning or late at night when the potential business would be closed.</br></br>
+The average temperature of the historical June and December weather data are within 3 degrees of each other, and within an optimal range for outdoor activities.  It is worth noting that maximums for both months reached the 80s, which is fairly warm but not too hot, and the temperature minimum for December only dropped to 56 degrees.
+
+The standard deviation of the data is fairly large at 3.26 for the June data and 3.75 for the December data, meaning that the data is fairly spread out and may compromise the average temperatures provided. However, multiple temperatures were taken for a single day, meaning the outlier temperature may have been procured during the early hours of the morning or late at night when the potential business would be closed.
+
 December and June were selected to show a reasonable span of temperatures in different parts of the year.  While the temperature data and analysis provided appropriate and reasonable temperatures to move forward with the business proposal, it may be worth taking a deeper look at the data in analyzing temperatures for all months of the year.  Analyzing precipitation levels may also be helpful, as it can rain on a day with reasonable or optimal temperatures, which my curtail business.  
